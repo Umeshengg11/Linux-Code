@@ -33,3 +33,9 @@ e.g git clone https://Umeshengg11/RoutingTable.git . (here the last dot represen
 git remote -v -> view information about cloned remote repository.
 
 git branch -a -> view branch information about cloned remote repository
+
+git diff -> this will tell us about the changes made to the file after commiting it.
+
+git pull origin master -> Before pushing anything to remote repository, do a pull command so that any update done by some one else will get updated to your local repository.
+
+git push origin master -> This command is used to push the commited code to the remote repository.
