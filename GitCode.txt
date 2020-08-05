@@ -1,0 +1,21 @@
+basically there are three types of stages available in git Version Control
+1. Working area/Modified space
+2. Staging area
+3. Repository/Committed space
+
+git init -> At first we have to make the particular folder a git folder
+This will create a .git file in that particular location for version control
+
+ls -la -> Show all file at that particular directory including hidden.
+
+rm -rf .git -> undo the git init command by removing the .git file created in the directory for version control. 
+
+git status -> It will show all un-commited files in the working space
+This will be displayed in RED.
+
+touch .gitignore -> This will create .gitignore file in the directory. There will be lot of files that we dont want to be get tracked by git. this files may be created as configuration file of IDE or any thing else. Details of all this file can be added to .gitignore file.This file can be opened using a text editor or by IDE.
+
+git add -> This command is used to add files from working area to staging area. This can be done individually on each file or all at once
+eg git add -A (all at once) or git add filename (One file at a time).
+
+git config --list ->shows all the configuration added to the git.
