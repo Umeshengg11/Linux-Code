@@ -18,4 +18,18 @@ touch .gitignore -> This will create .gitignore file in the directory. There wil
 git add -> This command is used to add files from working area to staging area. This can be done individually on each file or all at once
 eg git add -A (all at once) or git add filename (One file at a time).
 
+git reset -> This command will remove all the files from the staging area and bring back to working area. This bascically undo the git add command. eg  git reset ( remove all files) git reset <file name> (remove particular file).
+
+git commit -m -> This command is used for the final commit with a message.Here message is compulsary. eg git commit -m "First Commit"
+
+git log ->This will give the log of commit done.
+
 git config --list ->shows all the configuration added to the git.
+
+-------------------------------------------------------------------------------------------------
+git clone <url> <where to clone> -> This command is used to clone a remote repository to your local repository and start working on it.
+e.g git clone https://Umeshengg11/RoutingTable.git . (here the last dot represents the current directory) Here it is not necessary that cloning is only from the remote repository, we can clone from local repository as well.In place of <url> give <location of the localRep from data to be cloned>.
+
+git remote -v -> view information about cloned remote repository.
+
+git branch -a -> view branch information about cloned remote repository
